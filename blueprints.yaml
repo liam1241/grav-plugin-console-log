@@ -1,0 +1,14 @@
+name: Console Log
+type: plugin
+version: 1.0.0
+description: "This plugin allows you to print text to the browser's console using a Twig function."
+icon: keyboard-o
+author:
+  name: Liam Baron
+  email: lsb@liambaron.com
+  url: https://liambaron.com
+homepage: https://github.com/linktorepo
+keywords: console, print, plugin
+bugs: https://github.com/linktobugpage
+docs: https://github.com/linktoreadme
+license: MIT
