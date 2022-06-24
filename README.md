@@ -4,7 +4,11 @@ Console Log is a simple plugin that provides a way to leave a message in the bro
 
 # Usage
 
-To use this plugin, you need to first enable the plugin and Twig processing for your page. Twig processing can be enabled for a page in the admin panel by going to the `Advanced` tab for your page and checking `Twig` under the `Process` section. Once Twig processing is enabled, simply type `{{ conlog("Replace this with your text") }}` within your page. The text within the quotation marks will be printed to the browser's console every time the page is loaded.
+To use this plugin, you need to first enable the plugin and Twig processing for your page. Twig processing can be enabled for a page in the admin panel by going to the `Advanced` tab for your page and checking `Twig` under the `Process` section. Once Twig processing is enabled, simply add the following function anywhere in your page: 
+
+`{{ conlog("Replace this with your text") }}`
+
+The text within the quotation marks will be printed to the browser's console every time the page is loaded.
 
 # Installation
 
