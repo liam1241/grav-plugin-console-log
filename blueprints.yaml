@@ -7,8 +7,8 @@ author:
   name: Liam Baron
   email: lsb@liambaron.com
   url: https://liambaron.com
-homepage: https://github.com/linktorepo
+homepage: https://github.com/liam1241/grav-plugin-console-log
 keywords: console, print, plugin
-bugs: https://github.com/linktobugpage
-docs: https://github.com/linktoreadme
+bugs: https://github.com/liam1241/grav-plugin-console-log/issues
+docs: https://github.com/liam1241/grav-plugin-console-log/blob/main/README.md
 license: MIT
