@@ -12,6 +12,8 @@ The text within the quotation marks will be printed to the browser's console eve
 
 # Installation
 
+> Console Log requires Grav v1.7.0 or greater. Older versions may work, but the plugin may not function as intended.
+
 There are two ways to install the Console Log plugin, you can install it using the built-in GPM (Grav Package Manager) or manually with the zip file.
 
 > Note: GPM Installation/Update will not be available until this plugin is added to the Grav Repository.
