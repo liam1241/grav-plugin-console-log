@@ -1,6 +1,6 @@
 name: Console Log
 type: plugin
-version: 1.0.0
+version: 1.0.1
 description: "This plugin allows you to print text to the browser's console using a Twig function."
 icon: keyboard-o
 author:
@@ -12,3 +12,6 @@ keywords: console, print, plugin
 bugs: https://github.com/liam1241/grav-plugin-console-log/issues
 docs: https://github.com/liam1241/grav-plugin-console-log/blob/main/README.md
 license: MIT
+
+dependencies:
+- { name: grav, version: '>=1.7.0' }
