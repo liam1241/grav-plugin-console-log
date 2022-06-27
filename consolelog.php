@@ -6,12 +6,18 @@ class ConsoleLogPlugin extends Plugin
     public static function getSubscribedEvents()
     {
         return [
-            'onTwigExtensions' => ['onTwigExtensions', 0]
+            'onTwigInitialized' => ['onTwigInitialized', 0]
         ];
     }
-    public function onTwigExtensions()
+    public function onTwigInitialized()
     {
-        require_once(__DIR__ . '/twig/ConsoleLogExtension.php');
-        $this->grav['twig']->twig->addExtension(new ConsoleLogExtension());
+      $this->grav['twig']->twig()->addFunction(
+        new \Twig_SimpleFunction('conlog', [$this, 'conlogFunction'])
+      );
+    }
+    public function conlogFunction(string $input)
+    {
+      $encoded = htmlspecialchars($input);
+      echo "<script type='text/JavaScript'>console.log('$encoded');</script>";
     }
 }
