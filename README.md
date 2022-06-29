@@ -24,13 +24,13 @@ This is the best way to install the plugin. From the root of your Grav install s
 
 	bin/gpm install consolelog
 
-This plugin will be installed into the `/user/plugins/consolelog` directory. It is entirely self-contained in this folder.
+This plugin will be installed into the `/user/plugins/console-log` directory. It is entirely self-contained in this folder.
 
 ## Manual Installation
 
-First, download the zip version of this repository and extract it. Make sure the resulting folder is named `consolelog`. Then place this folder within the `/user/plugins` directory. The plugin is then available for use, and should be visible in the Grav Admin Panel if installed.
+First, download the zip version of this repository and extract it. Make sure the resulting folder is named `console-log`. Then place this folder within the `/user/plugins` directory. The plugin is then available for use, and should be visible in the Grav Admin Panel if installed.
 
-TLDR: Download zip, rename to `consolelog`, and place within `/user/plugins`.
+TLDR: Download zip, rename to `console-log`, and place within `/user/plugins`.
 
 # Updating
 
@@ -40,13 +40,13 @@ The directions below will help you update the Console Log plugin, simply follow 
 
 Similar to how the plugin is installed, navigate to the root of your Grav install and type:
 
-	bin/gpm update consolelog
+	bin/gpm update console-log
 
 The plugin will now be up to date.
 
 ## Manual Update
 
-Manually updating has a few more steps but is still simple. Start off by deleting the `/user/plugins/consolelog` directory. Download the latest zip version of this repository and unzip it. Make sure the unzipped folder is named `consolelog`. Place the folder within `/user/plugins`. The latest version of Console Log should now be installed and functioning.
+Manually updating has a few more steps but is still simple. Start off by deleting the `/user/plugins/console-log` directory. Download the latest zip version of this repository and unzip it. Make sure the unzipped folder is named `console-log`. Place the folder within `/user/plugins`. The latest version of Console Log should now be installed and functioning.
 
 # Credits
 
